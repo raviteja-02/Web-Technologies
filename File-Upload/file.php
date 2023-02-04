@@ -1,4 +1,4 @@
 <?php
-    $file = readfile($_GET["file"]);
-    echo $file;
+    $file = $_GET["file"];
+    echo readfile($file);
 ?>
