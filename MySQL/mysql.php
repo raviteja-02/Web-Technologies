@@ -12,7 +12,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-echo "Connected successfully<br>";
+echo "<h1>Connected successfully<br><h1>";
 
 // Create table
 $sql = "CREATE TABLE users (
