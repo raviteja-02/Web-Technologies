@@ -1,0 +1,3 @@
+Introduction to JSP: The Anatomy of a JSP Page, JSP Processing, Declarations, Directives,
+Expressions, Code Snippets, implicit objects, Using Beans in JSP Pages, Using Cookies and session
+for session tracking, connecting to database in JSP.
