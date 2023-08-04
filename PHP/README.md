@@ -237,6 +237,3 @@ Remember to properly sanitize user inputs and use prepared statements to prevent
 ---
 
 Feel free to contribute to this guide by opening issues or pull requests! Happy coding!
-```
-
-You can copy and paste this content into your GitHub repository's README.md file. Remember to modify the content according to your specific needs or add any additional information you'd like to provide in the guide.
