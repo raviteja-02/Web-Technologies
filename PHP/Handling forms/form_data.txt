@@ -1,0 +1,10 @@
+Username: Raviteja
+Email: ravi@example.com
+Username: Raviteja
+Gender: male
+Hobbies: gaming, coding
+Country: usa
+Uploaded File: Raviteja's Resume.pdf
+File Type: application/pdf
+File Size: 65259 bytes
+
