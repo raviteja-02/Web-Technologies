@@ -1,0 +1,32 @@
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+input {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+h1 {
+    color: rgb(188, 187, 255);
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Form Validation Example</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="validate.js"></script>
+</head>
+
+<body>
+  <h1>Registration Form</h1>
+  <form method="get" action="thank.html" onsubmit="return validateForm()">
+    <table>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name"></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password"></td>
+      </tr>
+      <tr>
+        <td><button type="submit" name="submit">Submit</button></td>
+        <td><button type="reset" name="reset">Reset</button></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
