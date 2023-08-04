@@ -1,0 +1,54 @@
+HTML Common tags- List, Tables, images, forms, Frames; Cascading Style sheets;
+
+Brief Notes
+Sure, here are brief notes on HTML common tags (List, Tables, Images, Forms, Frames) and Cascading Style Sheets (CSS):
+
+1. HTML Common Tags:
+
+a. Lists:
+- `<ul>`: Unordered list, used to create a bullet-point list.
+- `<ol>`: Ordered list, used to create a numbered list.
+- `<li>`: List item, used within `<ul>` or `<ol>` to define each item in the list.
+- `<dl>`: Definition list, used to create a list of terms and their corresponding definitions.
+- `<dt>`: Definition term, used within `<dl>` to define a term.
+- `<dd>`: Definition description, used within `<dl>` to provide the definition of a term.
+
+b. Tables:
+- `<table>`: Defines a table.
+- `<tr>`: Table row, used to define a row in the table.
+- `<th>`: Table header cell, used to define header cells in the table.
+- `<td>`: Table data cell, used to define data cells in the table.
+- `<caption>`: Table caption, used to provide a title or description for the table.
+
+c. Images:
+- `<img>`: Embeds an image into the web page.
+- `<figure>`: Groups media content, like images or videos, with optional captions.
+- `<figcaption>`: Defines a caption for a `<figure>` element.
+
+d. Forms:
+- `<form>`: Creates a form to collect user input.
+- `<input>`: Defines an input field within a form.
+- `<textarea>`: Defines a multiline text input field.
+- `<select>`: Creates a dropdown list (combo box).
+- `<option>`: Defines an option within a `<select>` element.
+- `<button>`: Creates a clickable button within a form.
+
+e. Frames (deprecated, not recommended for modern web development):
+- `<frame>`: Defines a single frame within a frameset.
+- `<frameset>`: Organizes multiple frames within a web page.
+- `<noframes>`: Provides content to be displayed when frames are not supported.
+
+2. Cascading Style Sheets (CSS):
+
+- CSS is used to control the presentation and layout of HTML elements on a web page.
+- It enables you to style text, colors, margins, padding, borders, and more.
+- Styles can be applied inline (using the `style` attribute), within the `<head>` section of an HTML file (using `<style>` tags), or in an external CSS file linked to the HTML document.
+- CSS properties are written in the format `property: value;`.
+- Selectors are used to target HTML elements for styling. For example:
+  - `element`: Targets all elements of a specific type (e.g., `p`, `h1`, `div`).
+  - `#id`: Targets a specific element with the given ID attribute (e.g., `#header`).
+  - `.class`: Targets all elements with the given class attribute (e.g., `.btn`).
+- CSS allows for various layout techniques, such as Flexbox and Grid, to create responsive and flexible designs.
+- Media queries can be used to apply different styles based on the device's screen size and characteristics, allowing for responsive web design.
+- CSS preprocessors, such as Sass and Less, extend the functionality of CSS by adding features like variables, nesting, and mixins.
+- CSS frameworks, such as Bootstrap and Foundation, provide pre-built CSS and HTML templates that can be used to build websites and web apps.

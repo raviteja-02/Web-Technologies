@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists</title>
+  </head>
+  <body>
+    <h1>Lists in HTML</h1>
+
+    <strong>Unordered Lists</strong>
+    <br />
+    <strong>Example:</strong>
+    <ul>
+      <li>Apple</li>
+      <li>Ball</li>
+      <li>Cat</li>
+      <li>Dog</li>
+    </ul>
+    <p>It can be three types they are</p>
+    <ul>
+      <li type="circle">circle</li>
+      <li type="square">square</li>
+      <li type="disc">disc</li>
+    </ul>
+    <p><strong>Note:</strong>By default disc is present.</p>
+    <strong>Ordered Lists</strong>
+    <br />
+    <strong>Example:</strong>
+    <ol>
+      <li>Apple</li>
+      <li>Ball</li>
+      <li>Cat</li>
+      <li>Dog</li>
+    </ol>
+    <p>It can be three types they are</p>
+    <ol>
+      <li type="A">Capital Letters</li>
+      <li type="a">Small Letters</li>
+      <li type="i">Small Roman Numbers</li>
+      <li type="I">Capital Roman Numbers</li>
+      <li type="1">Numbers</li>
+      <li style="list-style-type: decimal-leading-zero">
+        Numbers with leading zeros
+      </li>
+    </ol>
+    <p><strong>Note:</strong>By default Numbers is present.</p>
+    <strong>Definition Lists</strong>
+    <p>It is used to describe a list item present in the list.</p>
+    <p>We use tag <strong> &lt;dt&gt; </strong> for the list item</p>
+    <p>
+      We use tag <strong> &lt;dd&gt; </strong> for the list item description
+    </p>
+    <p>
+      There is no numbering for the list we can use the Ordered list or
+      Unordered list for mentioning the list item number.
+    </p>
+    <strong>Example: Ordered Lists</strong>
+    <ol>
+      <dl>
+        <li>
+          <dt>Apple:</dt>
+          <dd>It is a fruit</dd>
+        </li>
+        <li>
+          <dt>Ball:</dt>
+          <dd>It is a toy</dd>
+        </li>
+        <li>
+          <dt>Cat:</dt>
+          <dd>It is an animal</dd>
+        </li>
+        <li>
+          <dt>Dog:</dt>
+          <dd>It is an animal</dd>
+        </li>
+      </dl>
+    </ol>
+    <strong>Example: Unordered Lists</strong>
+    <ul>
+      <dl>
+        <li>
+          <dt>Apple:</dt>
+          <dd>It is a fruit</dd>
+        </li>
+        <li>
+          <dt>Ball:</dt>
+          <dd>It is a toy</dd>
+        </li>
+        <li>
+          <dt>Cat:</dt>
+          <dd>It is an animal</dd>
+        </li>
+        <li>
+          <dt>Dog:</dt>
+          <dd>It is an animal</dd>
+        </li>
+      </dl>
+    </ul>
+    <strong>Example: None</strong>
+    <dl style="padding-left: 40px">
+      <dt>Apple:</dt>
+      <dd>It is a fruit</dd>
+      <dt>Ball:</dt>
+      <dd>It is a toy</dd>
+      <dt>Cat:</dt>
+      <dd>It is an animal</dd>
+      <dt>Dog:</dt>
+      <dd>It is an animal</dd>
+    </dl>
+    <p><strong>Note:</strong>By default None is present.</p>
+    <strong>Example: Nested Lists</strong>
+    <ul type="circle">
+      <li>Apple</li>
+      <li>Ball</li>
+      <li>Cat</li>
+      <li>
+        Dog
+        <ol>
+          <li>German Shepherd</li>
+          <li>Labrador</li>
+          <li>Pug</li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>

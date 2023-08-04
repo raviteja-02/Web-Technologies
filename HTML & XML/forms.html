@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forms</title>
+</head>
+
+<body>
+  <h2>Basic Form</h2>
+  <form action="forms.php" method="post">
+    <input type="text" name="username" placeholder="Enter Username" />
+    <br>
+    <br>
+    <input type="password" name="password" placeholder="Enter Password" />
+    <br>
+    <br>
+    <input type="submit" name="submit" />
+  </form>
+  <p>
+  <h3>HTML Input Types</h3>
+  <table border="1">
+    <tr>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>
+        <p>&lt;input type="text"&gt;</p>
+      </td>
+      <td>Displays a single-line text input field</td>
+    </tr>
+    <tr>
+      <td>
+        <p>&lt;input type="radio"&gt;</p>
+      </td>
+      <td>Displays a radio button (for selecting one of many choices)</td>
+    </tr>
+    <tr>
+      <td>
+        <p>&lt;input type="checkbox"&gt;</co>
+      </td>
+      <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+    </tr>
+    <tr>
+      <td>
+        <p>&lt;input type="submit"&gt;</p>
+      </td>
+      <td>Displays a submit button (for submitting the form)</td>
+    </tr>
+    <tr>
+      <td>
+        <p>&lt;input type="button"&gt;</de>
+      </td>
+      <td>Displays a clickable button</td>
+    </tr>
+  </table>
+  </p>
+  <h3>HTML Input Attributes</h3>
+  <table border="1">
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>
+        <p>type</co>
+      </td>
+      <td>The type of input (e.g., text, checkbox, radio, etc.)</td>
+    </tr>
+    <tr>
+      <td>
+        <p>name</p>
+      </td>
+      <td>A name for the input field (used when submitting form data)</td>
+    </tr>
+    <tr>
+      <td>
+        <p>value</p>
+      </td>
+      <td>The initial value of the input field</td>
+    </tr>
+    <tr>
+      <td>
+        <p>placeholder</p>
+      </td>
+      <td>A short hint that describes the expected value of the input field</td>
+    </tr>
+    <tr>
+      <td>
+        <p>maxlength</p>
+      </td>
+      <td>The maximum number of characters allowed in the input field</td>
+    </tr>
+    <tr>
+      <td>
+        <p>required</de>
+      </td>
+      <td>Specifies that the input field must be filled out before submitting the form</td>
+    </tr>
+    <tr>
+      <td>
+        <p>disabled</p>
+      </td>
+      <td>Specifies that the input field should be disabled (cannot be edited)</td>
+    </tr>
+    <tr>
+      <td>
+        <p>readonly</de>
+      </td>
+      <td>Specifies that the input field is read-only (can be selected but not edited)</td>
+    </tr>
+  </table>
+
+  <h2>HTML Input Form</h2>
+  <form action="/submit" method="post">
+    <label for="text_input">Text Input:</label>
+    <input type="text" id="text_input" name="text_input" placeholder="Enter text" maxlength="50" required><br>
+
+    <label>Radio Buttons:</label><br>
+    <label for="radio_option1"><input type="radio" id="radio_option1" name="radio_group" value="option1">Option
+      1</label><br>
+    <label for="radio_option2"><input type="radio" id="radio_option2" name="radio_group" value="option2">Option
+      2</label><br>
+    <label for="radio_option3"><input type="radio" id="radio_option3" name="radio_group" value="option3">Option
+      3</label><br>
+
+    <label>Checkboxes:</label><br>
+    <label for="checkbox_option1"><input type="checkbox" id="checkbox_option1" name="checkbox_option1"
+        value="option1">Option 1</label><br>
+    <label for="checkbox_option2"><input type="checkbox" id="checkbox_option2" name="checkbox_option2"
+        value="option2">Option 2</label><br>
+    <label for="checkbox_option3"><input type="checkbox" id="checkbox_option3" name="checkbox_option3"
+        value="option3">Option 3</label><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
