@@ -1,0 +1,3 @@
+Introduction to Servlets: Common Gateway Interface (CGt), Life cycle of a Servlet, deploying a
+servlet, The Servlet API, Reading Servlet parameters, Reading Initialization parameters, Handling Http
+Request & Responses, Using Cookies and Sessions, connecting to a database using JDBC.

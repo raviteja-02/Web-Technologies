@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <module-name>Servlets</module-name>
+    <servlet>
+        <servlet-name>Sub</servlet-name>
+        <servlet-class>Subtraction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sub</servlet-name>
+        <url-pattern>/Subtraction</url-pattern>
+    </servlet-mapping>
+</web-app>
