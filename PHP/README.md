@@ -1,6 +1,3 @@
-Apologies for the confusion. Below is a markdown file covering the topics "Introduction to PHP" for GitHub README:
-
-```markdown
 # Introduction to PHP
 
 This repository provides a beginner's guide to PHP, covering the fundamental concepts necessary to get started with server-side web development. PHP is a popular programming language for web development, known for its ease of use and ability to interact with databases.
