@@ -1,0 +1,16 @@
+fopen is to read a file with the different modes such as r, r+, w, w+, a, a+ each mode has it own benefits
+r is to read a file
+w is to write a file
+a is to append a file
+r+ is to read and write a file
+w+ is to read and write a file
+a+ is to read and write a file
+$fptr = fopen("filename","mode");
+$fptr = fopen("filename","r");
+$fptr = fopen("filename","w");
+$fptr = fopen("filename","a");
+$fptr = fopen("filename","r+");
+$fptr = fopen("filename","w+");
+$fptr = fopen("filename","a+");
+fopen returns a file pointer we store it in a variable
+after performing the operations we need to close the file using fclose(file pointer);

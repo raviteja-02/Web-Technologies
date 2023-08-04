@@ -1,0 +1,1 @@
+fgetc is used to return character by character

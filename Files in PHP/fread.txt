@@ -1,0 +1,2 @@
+This is the fread(file pointer,length of the file).
+length of the file with the filesize(filename) function.

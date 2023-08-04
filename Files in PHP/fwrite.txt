@@ -1,0 +1,2 @@
+This is the fwrite(file pointer, string) function.
+It is used to write in a file.
