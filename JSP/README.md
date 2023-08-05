@@ -4,7 +4,25 @@ JSP (JavaServer Pages) is a technology that allows you to embed Java code within
 
 ## The Anatomy of a JSP Page
 
-A JSP page is a mix of HTML and Java code. It usually has a `.jsp` extension and is executed on the server to generate HTML content dynamically. Here's a basic structure of a JSP page:
+A JSP page is a mix of HTML and Java code. It usually has a `.jsp` extension and is executed on the server to generate HTML content dynamically. 
+JSP (JavaServer Pages) is a technology used for developing dynamic web pages with Java. The anatomy of a JSP page typically consists of the following parts:
+
+1. Declaration: This section allows you to declare variables or methods using the `<%! %>` tags. Declarations are placed outside the main HTML content and are executed once when the page is loaded.
+
+2. Scriptlet: The scriptlet section is used to include Java code directly into the HTML content. It is enclosed within `<% %>` tags and is executed every time the page is requested.
+
+3. Expression: The expression section is used to evaluate and display the result of a Java expression within the HTML content. It is enclosed within `<%= %>` tags.
+
+4. Directives: JSP directives provide instructions to the container (e.g., web server) on how to process the JSP page. Common directives include `page`, `include`, and `taglib`.
+
+5. Action tags: JSP provides built-in tags that perform specific actions like forwarding requests, including other resources, handling errors, etc. Examples include `<jsp:include>`, `<jsp:forward>`, and `<jsp:useBean>`.
+
+6. HTML Content: The actual HTML content is included in the JSP page, which will be sent to the client's browser as part of the response.
+
+7. Comments: You can use HTML or JSP comments to add notes and explanations within the JSP page, which are ignored during execution.
+
+Remember that JSP pages are processed by the server before being sent to the client, allowing dynamic content generation and interaction with Java components.
+Here's a basic structure of a JSP page:
 
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
